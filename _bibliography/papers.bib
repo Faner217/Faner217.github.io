@@ -1,115 +1,78 @@
----
----
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
-}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
-}
-
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
+@inproceedings{li2025ultra,
+  abbr={UIST},
+  author={Li, Yifan and Fukumoto, Masaaki and Kari, Mohamed and Ishida, Shigemi and Noda, Akihito and Yokota, Tomoyuki and Someya, Takao and Kawahara, Yoshihiro and Takahashi, Ryo},
+  title={Ultra-low-power ring-based wireless tinymouse},
+  year={2025},
+  isbn = {9798400720376},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3746059.3747615},
+  doi = {10.1145/3746059.3747615},
+  abstract = {Wireless mouse rings offer subtle, reliable pointing interactions for wearable computing platforms. However, the small battery below 27 mAh in the miniature rings restricts the ring's continuous lifespan to just 1-10 hours, because even low-powered wireless communication such as BLE is power-consuming for ring's continuous use. The ring's short lifespan frequently disrupts users' mouse use with the need for frequent charging. This paper presents picoRing mouse, enabling a continuous ring-based mouse interaction with ultra-low-powered ring-to-wristband wireless connectivity. picoRing mouse employs a coil-based impedance sensing named semi-passive inductive telemetry, allowing a wristband coil to capture a unique frequency response of a nearby ring coil via a sensitive inductive coupling between the coils. The ring coil converts the corresponding user's mouse input into the unique frequency response via an up to 449 uW mouse-driven modulation system. Therefore, the continuous use of picoRing mouse can last approximately 600 (8hrs use/day)-1000 (4hrs use/day) hours on a single charge of a 27 mAh battery while supporting subtle thumb-to-index scrolling and pressing interactions in real-world wearable computing situations.},
+  booktitle = {Proceedings of the 38th Annual ACM Symposium on User Interface Software and Technology},
+  location = {Busan, Republic of Korea},
+  series = {UIST '25},
+  pdf={picoRing_mouse.pdf},
+  video={https://www.youtube.com/watch?v=7RazVNMx0Ms},
+  preview={picoRing_mouse.png},
   selected={true},
-  inspirehep_id = {3255}
+  code = {https://github.com/KawaharaLab/picoRing_mouse}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@inproceedings{li2025demo,
+  abbr={CHI},
+  author = {Li, Yifan and Fukumoto, Masaaki and Kari, Mohamed and Yokota, Tomoyuki and Someya, Takao and Kawahara, Yoshihiro and Takahashi, Ryo},
+  title = {Demo of picoRing mouse: ultra-low-powered wireless mouse ring with ring-to-wristband coil-based impedance sensing},
+  year = {2025},
+  isbn = {9798400713958},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3706599.3721183},
+  doi = {10.1145/3706599.3721183},
+  abstract = {Wireless mouse rings offer subtle, reliable pointing interactions for wearable computing platforms. However, the small battery below 27 mAh in the miniature rings restricts the ring’s continuous lifespan to just 1-2 hours, because current low-powered wireless communication such as BLE is power-consuming for ring’s continuous use. The ring’s short lifespan persistently disrupts users’ mouse use with the need for frequent charging. This interactivity demonstrates picoRing mouse, enabling a continuous ring-based mouse interaction with ultra-low-powered ring-to-wristband wireless communication. picoRing mouse employs a coil-based impedance sensing named semi-passive inductive telemetry, allowing a wristband coil to capture a unique frequency response of a nearby ring coil via a sensitive inductive coupling between the coils. The ring coil converts the corresponding user’s mouse input into the unique frequency response via an 820 uW mouse-driven modulation module. Therefore, continuous use of picoRing mouse can potentially last over 92 hours on a single charge of a 20-mAh small battery.},
+  booktitle = {Proceedings of the Extended Abstracts of the CHI Conference on Human Factors in Computing Systems},
+  articleno = {707},
+  numpages = {5},
+  keywords = {wireless mouse ring, coil-based impedance sensing, semi-passive inductive telemetry, wearables},
+  location = {Yokohama, Japan},
+  series = {CHI EA '25},
+  preview={picoRing_demo.png},
+  pdf={demo_picoRing_mouse.pdf},
+  selected={true}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+
+@inproceedings{li2025plug,
+  abbr={TEI},
+  author = {Li, Yifan and Takahashi, Ryo and Yukita, Wakako and Matsutani, Kanata and Caremel, Cedric and Iwamoto, Yuhiro and Lee, Sunghoon and Yokota, Tomoyuki and Someya, Takao and Kawahara, Yoshihiro},
+  title = {Plug-n-play e-knit: prototyping large-area e-textiles using machine-knitted magnetically-repositionable sensor networks},
+  year = {2025},
+  isbn = {9798400711978},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3689050.3705973},
+  doi = {10.1145/3689050.3705973},
+  abstract = {Prototyping electronic textile involves embedding electronic components into fabrics to develop smart clothing with specific functionalities. However, this process is still challenging since the complicated wiring setup is required during experimental phases. This paper presents plug-n-play e-knit, a large-scale, repositionable e-textile for providing trial-and-error prototyping platforms across the textile. Plug-n-play e-knit leverages industrial digital knitting machines loaded with conductive thread to automatically embed a communication and power supply network into garments, in addition to using soft magnet connectors to rearrange electronic components while preserving the stretchability of the garment. These combinations enable users to quickly establish e-textile sensor networks, and moreover test the performance and optimal placement of the electric devices on the textile. We demonstrated that our textiles leveraging custom I2C protocols could achieve the motion-resilient motion-tracking sensor network over a 2700 cm2 garment area.},
+  booktitle = {Proceedings of the Nineteenth International Conference on Tangible, Embedded, and Embodied Interaction},
+  articleno = {56},
+  numpages = {7},
+  keywords = {E-textiles, e-knit, PME, wearable, prototyping tool, smart clothing},
+  location = {},
+  series = {TEI '25},
+  pdf={plug_n_play_eknit.pdf},
+  preview={plug_n_play.png},
+  selected={true}
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+@INPROCEEDINGS{li2023privacy,
+  author={Li, Yifan and He, Yuechen and Fu, Yufei and Shan, Sizhe},
+  booktitle={2023 IEEE 3rd International Conference on Power, Electronics and Computer Applications (ICPECA)}, 
+  title={Privacy Preserved Federated Learning for Skin Cancer Diagnosis}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={27-33},
+  keywords={Training;Data privacy;Federated learning;Information sharing;Data models;Power electronics;Servers;CNN;Federated Learning;neural network;machine learning;Privacy Protection;Data Silo},
+  doi={10.1109/ICPECA56706.2023.10075862}
 }
