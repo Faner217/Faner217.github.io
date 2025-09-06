@@ -34,7 +34,7 @@
             include figure.liquid
             loading="eager"
             path=entry_path
-            sizes = "500px"
+            sizes = "300px"
             class="preview z-depth-1 rounded"
             zoomable=true
             avoid_scaling=true
@@ -78,16 +78,6 @@
           {% endfor %}
         {%- endif -%}
 
-        {% assign author_is_bold = false %}
-        {% if author.first contains '{b}' or author.last contains '{b}' %}
-          {% assign author_is_bold = true %}
-          {% assign author_first_clean = author.first | replace: '{b}', '' %}
-          {% assign author_last_clean = author.last | replace: '{b}', '' %}
-        {% else %}
-          {% assign author_first_clean = author.first %}
-          {% assign author_last_clean = author.last %}
-        {% endif %}
-
         {%- if forloop.length > 1 -%}
           {% if forloop.first == false -%}
             {%- if forloop.length > 2 %}, {% elsif forloop.length == 2 %}  {% endif %}
@@ -96,24 +86,18 @@
         {% endif %}
         {%- if author_is_self -%}
           <em>
-            {% if author_is_bold %}<strong>{% endif %}
-            {{- author_first_clean }}
+            {{- author.first }}
             {{ author_last_html -}}
-            {% if author_is_bold %}</strong>{% endif %}
           </em>
         {%- else -%}
           {%- if coauthor_url -%}
             <a href="{{ coauthor_url }}">
-              {% if author_is_bold %}<strong>{% endif %}
-              {{- author_first_clean }}
+              {{- author.first }}
               {{ author_last_html -}}
-              {% if author_is_bold %}</strong>{% endif %}
             </a>
           {%- else -%}
-            {% if author_is_bold %}<strong>{% endif %}
-            {{- author_first_clean }}
+            {{- author.first }}
             {{ author_last_html -}}
-            {% if author_is_bold %}</strong>{% endif %}
           {% endif %}
         {%- endif -%}
       {% endfor %}
