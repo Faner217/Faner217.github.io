@@ -440,16 +440,19 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
+            },},{id: "news-a-long-announcement-with-details",
           title: 'A long announcement with details',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+              window.location.href = "/news/announcement_4/";
+            },},{id: "news-see-you-in-tei-2025-i-will-bring-plug-and-play-e-knit",
+          title: 'See you in TEI 2025! I will bring Plug-and-play e-knit!',
+          description: "",
+          section: "News",},{id: "news-see-you-in-chi-2025-yokohama-i-will-show-a-demo-of-our-picoring-mouse",
+          title: 'See you in CHI 2025 Yokohama! I will show a demo of our...',
+          description: "",
+          section: "News",},{id: "news-our-picoring-mouse-full-paper-is-accepted-in-uist-2025-and-we-will-show-a-demo-for-it-see-you-in-busan",
+          title: 'Our picoRing mouse full paper is accepted in UIST 2025! And we will...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
