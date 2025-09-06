@@ -736,6 +736,9 @@ footer.sticky-bottom {
       margin-bottom: 1rem;
 
       .preview {
+        width: 300px;   /* 你想要的尺寸 */
+        height: auto;
+        max-width: 100%;
       }
 
       .abbr {
