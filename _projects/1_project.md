@@ -8,7 +8,7 @@ category: work
 related_publications: true
 ---
 
-picoRing mouse, enabling a continuous ring-based mouse interaction with ultra-low-powered ring-to-wristband wireless connectivity. picoRing mouse employs a coil-based impedance sensing named semi-passive inductive telemetry, allowing a wristband coil to capture a unique frequency response of a nearby ring coil via a sensitive inductive coupling between the coils. 
+picoRing mouse{% cite li2025ultra %}{% cite li2025demo %}, enabling a continuous ring-based mouse interaction with ultra-low-powered ring-to-wristband wireless connectivity. picoRing mouse employs a coil-based impedance sensing named semi-passive inductive telemetry, allowing a wristband coil to capture a unique frequency response of a nearby ring coil via a sensitive inductive coupling between the coils. 
 
 The ring coil converts the corresponding user's mouse input into the unique frequency response via an up to 449 uW mouse-driven modulation system. Therefore, the continuous use of picoRing mouse can last approximately 600 (8hrs use/day)-1000 (4hrs use/day) hours on a single charge of a 27 mAh battery while supporting subtle thumb-to-index scrolling and pressing interactions in real-world wearable computing situations.
 
@@ -35,8 +35,11 @@ The ring coil converts the corresponding user's mouse input into the unique freq
         </div>
     </div>
 </div>
+<div class="caption">
+    Working principle, application and evaluation of picoRing mouse.
+</div>
 
-<div class="row">
+<!-- <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
@@ -79,4 +82,4 @@ Here's the code for the last row of images above:
 </div>
 ```
 
-{% endraw %}
+{% endraw %} -->
