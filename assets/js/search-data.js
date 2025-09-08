@@ -465,11 +465,25 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
             },},{
+        id: 'social-acm',
+        title: 'ACM DL',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://dl.acm.org/profile/99661569314/", "_blank");
+        },
+      },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
+          window.open("mailto:%79%69%66%61%6E%32%31%37@%61%6B%67.%74.%75-%74%6F%6B%79%6F.%61%63.%6A%70", "_blank");
+        },
+      },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/Faner217", "_blank");
         },
       },{
         id: 'social-inspire',
@@ -479,11 +493,18 @@ ninja.data = [{
           window.open("https://inspirehep.net/authors/1010907", "_blank");
         },
       },{
-        id: 'social-rss',
-        title: 'RSS Feed',
+        id: 'social-linkedin',
+        title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("/feed.xml", "_blank");
+          window.open("https://www.linkedin.com/in/yifan217", "_blank");
+        },
+      },{
+        id: 'social-orcid',
+        title: 'ORCID',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://orcid.org/0009-0005-9261-6391", "_blank");
         },
       },{
         id: 'social-scholar',
@@ -493,11 +514,18 @@ ninja.data = [{
           window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
         },
       },{
+        id: 'social-spotify',
+        title: 'Spotify',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://open.spotify.com/user/31wgrde4xe6iopebdylcagsyz3lq", "_blank");
+        },
+      },{
         id: 'social-custom_social',
         title: 'Custom_social',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
+          window.open("https://steamcommunity.com/profiles/76561199613607062/", "_blank");
         },
       },{
       id: 'light-theme',
