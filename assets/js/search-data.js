@@ -465,13 +465,6 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
             },},{
-        id: 'social-acm',
-        title: 'ACM DL',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://dl.acm.org/profile/99661569314/", "_blank");
-        },
-      },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
@@ -479,18 +472,18 @@ ninja.data = [{
           window.open("mailto:%79%69%66%61%6E%32%31%37@%61%6B%67.%74.%75-%74%6F%6B%79%6F.%61%63.%6A%70", "_blank");
         },
       },{
+        id: 'social-acm',
+        title: 'ACM DL',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://dl.acm.org/profile/99661569314/", "_blank");
+        },
+      },{
         id: 'social-github',
         title: 'GitHub',
         section: 'Socials',
         handler: () => {
           window.open("https://github.com/Faner217", "_blank");
-        },
-      },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
         },
       },{
         id: 'social-linkedin',
