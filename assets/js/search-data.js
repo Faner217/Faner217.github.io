@@ -424,9 +424,9 @@ ninja.data = [{
           description: "Ultra-low-power ring-based wireless tinymouse",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+            },},{id: "projects-plug-n-play-e-knit",
+          title: 'Plug-n-play E-knit',
+          description: "prototyping large-area e-textiles using machine-knitted magnetically-repositionable sensor network",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
             },},{id: "projects-project-3-with-very-long-name",
