@@ -419,9 +419,9 @@ ninja.data = [{
           section: "News",},{id: "news-our-picoring-mouse-full-paper-is-accepted-in-uist-2025-and-we-will-show-a-demo-for-it-see-you-in-busan",
           title: 'Our picoRing mouse full paper is accepted in UIST 2025! And we will...',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-picoring-mouse",
+          title: 'picoRing mouse',
+          description: "Ultra-low-power ring-based wireless tinymouse",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-project-2",
