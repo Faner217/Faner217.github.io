@@ -102,22 +102,41 @@
   ],
   "skills": [
     {
-      "name": "Physics",
+      "name": "Hardware",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Electrical circuit design: Ultra-low-power circuits, RF circuits for wireless power transfer and inductive sensing, sensing circuits, etc., designed for mass production",
+        "RF measurements: Vector network analyzer, impedance analyzer, impedance matching, frequency response analyzer, etc.",
+        "Embedded Programming: Programming embedded systems (ARM, HAL)."
+      ]
+    },
+    {
+      "name": "Software",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "CAD tools: Autodesk EAGLE, Altium Designer, Kicad, Autodesk Fusion, etc",
+        "Programming languages: C, Python, MATLAB, etc.",
+        "Simulation: Experience in: MATLAB, LTSpice, Ansys HFSS, etc.",
+        "Others: Experience in: Adobe CC (Illustrator, Photoshop, Premiere), MS Office, LaTeX"
+      ]
+    },
+    {
+      "name": "Human-Computer Interaction research",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Wearable computing: Design and prototyping of wearable devices, user studies, etc.",
+        "Academic writing: Writing and publishing academic papers, posters, and presentations.",
+        "Hardware prototyping: Experience in: 3D printing, sewing, knitting, circuit implementing and testing, etc.",
+        "Others: video editing, graphic design, etc."
       ]
     }
   ],
   "languages": [
     {
-      "language": "German",
+      "language": "Chinese",
       "fluency": "Native speaker",
       "icon": ""
     },
@@ -125,42 +144,37 @@
       "language": "English",
       "fluency": "Fluent",
       "icon": ""
-    }
-  ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
     },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+       {
+      "language": "Japanese",
+      "fluency": "Proficient",
+      "icon": ""
     }
   ],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "picoRing",
+      "summary": "An ultra-low-power wireless mouse ring with ring-to-wristband coil-based impedance sensing",
+      "highlights": ["Ultra-low-power ring", "wearable wireless mouse", "coil-based impedance sensing"],
+      "startDate": "2025-01-01",
+      "endDate": "2018-05-01",
+      "url": "https://faner217.github.io/picoRing/",
+      "roles": ["Core researcher"]
+    },
+    {
+      "name": "e-knit",
+      "summary": "A prototyping toolkit for large-area e-textiles using machine-knitted magnetically-repositionable sensor networks",
+      "highlights": ["e-textiles", "magnetically-repositionable sensor networks", "rapid prototyping"],
+      "startDate": "2024-06-01",
+      "endDate": "2025-06-01",
+      "url": "https://faner217.github.io/e-knit/",
+      "roles": ["Core researcher"]
+    }
+  ],
+  "interests": [
+    {
+      "name": "Indie Rock Music",
+      "icon": "fa-solid fa-tag"
     }
   ]
 }
