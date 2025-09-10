@@ -120,7 +120,7 @@
       "keywords": [
         "<strong>CAD tools:</strong> Autodesk EAGLE, Altium Designer, Kicad, Autodesk Fusion, etc",
         "<strong>Programming languages:</strong> C, Python, MATLAB, etc.",
-        "<strong>Simulation: Experience in:</strong> MATLAB, LTSpice, Ansys HFSS, etc.",
+        "<strong>Simulation: Experience in</strong> MATLAB, LTSpice, Ansys HFSS, etc.",
         "<strong>Others:</strong> Adobe CC (Illustrator, Photoshop, Premiere), MS Office, LaTeX"
       ]
     },
@@ -129,10 +129,10 @@
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Wearable computing: Design and prototyping of wearable devices, user studies, etc.",
-        "Academic writing: Writing and publishing academic papers, posters, and presentations.",
-        "Hardware prototyping: Experience in: 3D printing, sewing, knitting, circuit implementing and testing, etc.",
-        "Others: video editing, graphic design, etc."
+        "<strong>Wearable computing:</strong> Design and prototyping of wearable devices, user studies, etc.",
+        "<strong>Academic writing:</strong> Writing and publishing academic papers, posters, and presentations.",
+        "<strong>Hardware prototyping:</strong> Experience in: 3D printing, sewing, knitting, circuit implementing and testing, etc.",
+        "<strong>Others:</strong> video editing, graphic design, etc."
       ]
     }
   ],
@@ -149,7 +149,7 @@
     },
        {
       "language": "Japanese",
-      "fluency": "Proficient",
+      "fluency": "Intermediate",
       "icon": ""
     }
   ],
