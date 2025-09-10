@@ -106,9 +106,11 @@
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Electrical circuit design: Ultra-low-power circuits, RF circuits for wireless power transfer and inductive sensing, sensing circuits, etc., designed for mass production",
-        "RF measurements: Vector network analyzer, impedance analyzer, impedance matching, frequency response analyzer, etc.",
-        "Embedded Programming: Programming embedded systems (ARM, HAL)."
+        "<strong>Electrical circuit design:</strong> Ultra-low-power circuits, RF circuits for wireless power transfer and inductive sensing, sensing circuits, etc., designed for mass production",
+
+        "<strong>RF measurements:</strong> Vector network analyzer, impedance analyzer, impedance matching, frequency response analyzer, etc.",
+
+        "<strong>Embedded Programming:</strong> Programming embedded systems (ARM, HAL)."
       ]
     },
     {
@@ -116,10 +118,10 @@
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "CAD tools: Autodesk EAGLE, Altium Designer, Kicad, Autodesk Fusion, etc",
-        "Programming languages: C, Python, MATLAB, etc.",
-        "Simulation: Experience in: MATLAB, LTSpice, Ansys HFSS, etc.",
-        "Others: Experience in: Adobe CC (Illustrator, Photoshop, Premiere), MS Office, LaTeX"
+        "<strong>CAD tools:</strong> Autodesk EAGLE, Altium Designer, Kicad, Autodesk Fusion, etc",
+        "<strong>Programming languages:</strong> C, Python, MATLAB, etc.",
+        "<strong>Simulation: Experience in:</strong> MATLAB, LTSpice, Ansys HFSS, etc.",
+        "<strong>Others:</strong> Adobe CC (Illustrator, Photoshop, Premiere), MS Office, LaTeX"
       ]
     },
     {
@@ -174,7 +176,8 @@
   "interests": [
     {
       "name": "Indie Rock Music",
-      "icon": "fa-solid fa-tag"
+      "icon": "fa-solid fa-tag",
+      "keywords": ["Radiohead", "Car seat headrest", "Kinoko Teikoku", "Bon Iver", "Ichiko Aoba"]
     }
   ]
 }
