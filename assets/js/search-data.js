@@ -166,6 +166,13 @@ ninja.data = [{
           window.open("https://open.spotify.com/user/31wgrde4xe6iopebdylcagsyz3lq", "_blank");
         },
       },{
+        id: 'social-custom_social',
+        title: 'Custom_social',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://steamcommunity.com/profiles/76561199613607062/", "_blank");
+        },
+      },{
       id: 'light-theme',
       title: 'Change theme to light',
       description: 'Change the theme of the site to Light',
