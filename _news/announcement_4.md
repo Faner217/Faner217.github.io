@@ -5,5 +5,5 @@ inline: true
 related_posts: false
 ---
 
-Our plug-n-play e-knit demo is accepted in Ubicomp 2025! And we will show a demo for it. 
+Our plug-n-play e-knit is accepted in Ubicomp 2025 Intelligent Soft Wearables workshop! And we will show a demo for it. 
 See you in Aalto! 
