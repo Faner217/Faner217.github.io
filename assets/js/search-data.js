@@ -46,11 +46,6 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_4/";
             },},{id: "news-see-you-in-tei-2025-i-will-bring-plug-and-play-e-knit",
           title: 'See you in TEI 2025! I will bring Plug-and-play e-knit!',
           description: "",
@@ -59,6 +54,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-our-picoring-mouse-full-paper-is-accepted-in-uist-2025-and-we-will-show-a-demo-for-it-see-you-in-busan",
           title: 'Our picoRing mouse full paper is accepted in UIST 2025! And we will...',
+          description: "",
+          section: "News",},{id: "news-our-plug-n-play-e-knit-demo-is-accepted-in-ubicomp-2025-and-we-will-show-a-demo-for-it-see-you-in-aalto",
+          title: 'Our plug-n-play e-knit demo is accepted in Ubicomp 2025! And we will show...',
           description: "",
           section: "News",},{id: "projects-picoring-mouse",
           title: 'picoRing mouse',
