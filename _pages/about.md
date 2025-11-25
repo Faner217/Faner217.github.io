@@ -16,7 +16,7 @@ social: true # includes social icons at the bottom of the page
 announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 4 # leave blank to include all the news in the `_news` folder
+  limit: 3 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
   enabled: false
@@ -28,6 +28,6 @@ Yifan Li is a Ph.D. candidate at the University of Tokyo. His research focuses o
 
 He received his B.S. degree in Electrical and Electronic Engineering from [University of Glasgow](https://www.gla.ac.uk/) in 2023, and his M.S. degree in Electrical Engineering and Information Systems from [The University of Tokyo](https://www.u-tokyo.ac.jp/en/) in 2025.
 
-He is passionate about developing new hardware and software to enable intuitive and convenient interaction interfaces. Some of his work has been published in ACM UIST, TEI, CHI, etc. In his free time, he loves indie rock music. He is currently seeking a research internship.
+He is passionate about developing new hardware and software to enable intuitive and convenient interaction interfaces. Some of his work has been published in ACM UIST, TEI, CHI, etc. In his free time, he loves indie music. He is currently seeking a research internship.
 
 Email: yifan217[at]akg.t.u-tokyo.ac.jp
