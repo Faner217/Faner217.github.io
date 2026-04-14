@@ -5,5 +5,5 @@ inline: true
 related_posts: false
 ---
 
-I'm going to Apple for internship!
+I'm going to **Apple** for internship!
 See you in Shanghai! 

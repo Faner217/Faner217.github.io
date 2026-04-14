@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-See you in CHI 2025 Yokohama! I will show a demo of our picoRing mouse!
+See you in **CHI 2025** Yokohama! I will show a demo of our picoRing mouse!

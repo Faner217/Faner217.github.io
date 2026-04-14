@@ -5,5 +5,5 @@ inline: true
 related_posts: false
 ---
 
-Our picoRing mouse full paper is accepted in UIST 2025! And we will show a demo for it. 
+Our picoRing mouse full paper is accepted in **UIST 2025**! And we will show a demo for it. 
 See you in Busan! 
