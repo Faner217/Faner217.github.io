@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-resume",
           title: "Resume",
-          description: "Yifan Li is a Ph.D. candidate at the University of Tokyo. He is currently seeking a research internship.",
+          description: "Yifan Li is a Ph.D. candidate at the University of Tokyo.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
