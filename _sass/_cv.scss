@@ -150,6 +150,24 @@ td.list-group-link {
   padding-left: 0.5rem;
 }
 
+/* Hide Interests text in all themes; reveal only on text selection */
+.interests-hidden-light,
+.interests-hidden-light * {
+  color: var(--global-card-bg-color) !important;
+}
+
+.interests-hidden-light::selection,
+.interests-hidden-light *::selection {
+  color: var(--global-text-color) !important;
+  background: var(--global-theme-color);
+}
+
+.interests-hidden-light::-moz-selection,
+.interests-hidden-light *::-moz-selection {
+  color: var(--global-text-color) !important;
+  background: var(--global-theme-color);
+}
+
 /*****************************
  * CV TOC styles
  *****************************/
