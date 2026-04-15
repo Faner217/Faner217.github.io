@@ -6,7 +6,7 @@
     "email": "Yifan217@akg.t.u-tokyo.ac.jp",
     "phone": "090-8138-1481",
     "url": "https://faner217.github.io/",
-    "summary": "I am a Ph.D. student at the University of Tokyo. I am currently seeking a research internship. My research focuses on  human-computer interaction, particularly wearable computing, wireless devices, and ubiquitous and mobile computing.",
+    "summary": "I am a Ph.D. student at the University of Tokyo. My research focuses on  human-computer interaction, particularly wearable computing, wireless devices, and ubiquitous and mobile computing.",
     "location": {
       "address": "Room 112C1, Bldg #2, 7-3-1 Hongo, Bunkyo-ku",
       "postalCode": "113-8656",
@@ -171,13 +171,6 @@
       "endDate": "2025-06-01",
       "url": "https://faner217.github.io/e-knit/",
       "roles": ["Core researcher"]
-    }
-  ],
-  "interests": [
-    {
-      "name": "Indie music",
-      "icon": "fa-solid fa-tag",
-      "keywords": ["Radiohead", "Car seat headrest", "Kinoko Teikoku", "Ichiko Aoba"]
     }
   ]
 }
