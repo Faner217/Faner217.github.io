@@ -70,7 +70,7 @@ export const publications = [
     year: 2026,
     selected: true,
     title: 'picoRing dual: ultralow-power bimanual ring controllers for everyday AR',
-    authors: ['Hideaki Yamamoto', ME, 'Yoshihiro Kawahara', 'Ryo Takahashi'],
+    authors: ['Hideaki Yamamoto*', ME + '*', 'Yoshihiro Kawahara', 'Ryo Takahashi'],
     booktitle: 'Proceedings of the ACM International Symposium on Wearable Computers',
     image: '/images/pub-picoring-dual.webp',
     imagePosition: 'left center',
