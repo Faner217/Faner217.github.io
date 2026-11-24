@@ -66,7 +66,6 @@ const ME = 'Yifan Li';
 export const publications = [
   {
     id: 'li2025ultra',
-    citations: 7,
     venue: 'UIST',
     series: 'UIST ’25',
     year: 2025,
@@ -100,7 +99,6 @@ export const publications = [
   },
   {
     id: 'li2025demo',
-    citations: 4,
     venue: 'CHI',
     series: 'CHI EA ’25',
     year: 2025,
@@ -135,7 +133,6 @@ export const publications = [
   },
   {
     id: 'li2025plug',
-    citations: 20,
     venue: 'TEI',
     series: 'TEI ’25',
     year: 2025,

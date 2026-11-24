@@ -46,7 +46,6 @@ function Publication({ pub }) {
           <span className="tag">{pub.venue}</span>
           <span>{pub.series}</span>
           {pub.location && <span className="pub__loc">{pub.location}</span>}
-          {pub.citations > 0 && <span className="pub__cites">Cited by {pub.citations}</span>}
         </p>
         <h3 className="pub__title">
           <a href={pub.links.doi} target="_blank" rel="noreferrer">

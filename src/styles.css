@@ -645,14 +645,6 @@ button {
   content: '·';
   margin-right: 12px;
 }
-.pub__cites {
-  color: var(--accent);
-}
-.pub__cites::before {
-  content: '·';
-  margin-right: 12px;
-  color: var(--muted);
-}
 .pub__title {
   margin: 12px 0 10px;
   font-size: clamp(19px, 1.35vw, 22px);
