@@ -20,9 +20,7 @@ export default function Nav({ sections }) {
     <header className={`nav ${scrolled ? 'nav--scrolled' : ''} ${open ? 'nav--open' : ''}`}>
       <div className="container nav__inner">
         <a href="#top" className="nav__brand" onClick={() => setOpen(false)}>
-          <span className="nav__mark" aria-hidden="true">
-            YL
-          </span>
+          <img className="nav__mark" src="/favicon-64.png" alt="" width="32" height="32" aria-hidden="true" />
           <span className="nav__name">{profile.name}</span>
         </a>
 

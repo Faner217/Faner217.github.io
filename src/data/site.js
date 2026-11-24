@@ -11,9 +11,9 @@ export const profile = {
   cv: '/assets/pdf/Yifan_CV.pdf',
   tagline:
     'Human–computer interaction researcher working on wearable computing, wireless devices, and ubiquitous & mobile computing.',
-  interests: ['Human–Computer Interaction', 'Wearable Computing', 'Wireless Devices', 'Ubiquitous & Mobile Computing'],
+  interests: ['Human–Computer Interaction', 'Wearable Computing', 'Smart Rings', 'Wireless Devices', 'Ubiquitous & Mobile Computing'],
   facts: [
-    { label: 'Now', value: 'Systems EE Intern, Apple', sub: 'Shanghai · since Jan 2026' },
+    { label: 'Industry', value: 'Apple', sub: 'System Electronic Engineer Intern, AirPods · 2026' },
     { label: 'Ph.D.', value: 'The University of Tokyo', sub: 'Advisor: Prof. Yoshihiro Kawahara' },
     { label: 'Published at', value: 'ACM UIST · CHI · TEI', sub: '3 ACM papers in 2025' },
   ],
@@ -42,6 +42,11 @@ export const contact = {
 
 // Newest first. **text** renders bold.
 export const news = [
+  { date: '2026-09-27', text: 'Attending **IROS 2026** in Pittsburgh! See you there.' },
+  {
+    date: '2026-09-01',
+    text: 'My internship at **Apple** has wrapped up. I’m back at **The University of Tokyo** to continue my Ph.D. research!',
+  },
   { date: '2026-04-14', text: 'See you at **CHI 2026** in Barcelona! We will show a demo of our lab.' },
   { date: '2026-01-18', text: 'I’m going to **Apple** for an internship! See you in Shanghai!' },
   {
@@ -61,6 +66,7 @@ const ME = 'Yifan Li';
 export const publications = [
   {
     id: 'li2025ultra',
+    citations: 7,
     venue: 'UIST',
     series: 'UIST ’25',
     year: 2025,
@@ -94,6 +100,7 @@ export const publications = [
   },
   {
     id: 'li2025demo',
+    citations: 4,
     venue: 'CHI',
     series: 'CHI EA ’25',
     year: 2025,
@@ -128,6 +135,7 @@ export const publications = [
   },
   {
     id: 'li2025plug',
+    citations: 20,
     venue: 'TEI',
     series: 'TEI ’25',
     year: 2025,
@@ -162,6 +170,7 @@ export const publications = [
   },
   {
     id: 'li2023privacy',
+    citations: 14,
     venue: 'ICPECA',
     series: 'IEEE ICPECA 2023',
     year: 2023,
@@ -232,7 +241,7 @@ export const projects = [
 export const education = [
   {
     degree: 'Ph.D.',
-    period: 'Sep 2025 – Present',
+    period: 'Sep 2025 – Sep 2028 (expected)',
     school: 'The University of Tokyo',
     field: 'Electrical Engineering and Information Systems',
     url: 'https://www.u-tokyo.ac.jp/en/',
@@ -258,10 +267,10 @@ export const education = [
 
 export const experience = [
   {
-    title: 'Systems EE Intern, AirPods',
+    title: 'System Electronic Engineer Intern, AirPods',
     org: 'Apple',
     place: 'Shanghai, China',
-    period: 'Jan 2026 – Present',
+    period: 'Feb 2026 – Aug 2026',
   },
 ];
 
