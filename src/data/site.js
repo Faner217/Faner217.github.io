@@ -14,8 +14,8 @@ export const profile = {
   interests: ['Human–Computer Interaction', 'Wearable Computing', 'Smart Rings', 'Wireless Devices', 'Ubiquitous & Mobile Computing'],
   facts: [
     { label: 'Industry', value: 'Apple', sub: 'System Electronic Engineer Intern, AirPods · 2026' },
-    { label: 'Ph.D.', value: 'The University of Tokyo', sub: 'Advisor: Prof. Yoshihiro Kawahara' },
-    { label: 'Published at', value: 'ACM UIST · CHI · TEI', sub: '3 ACM papers in 2025' },
+    { label: 'Ph.D.', value: 'The University of Tokyo', sub: 'Advisors: Prof. Yoshihiro Kawahara & Prof. Ryo Takahashi' },
+    { label: 'Research interests', value: 'Wearables & Smart Rings', sub: 'HCI · Wireless devices · Ubiquitous computing' },
   ],
   bio: [
     'Yifan Li is a Ph.D. candidate at the University of Tokyo. His research focuses on human-computer interaction, particularly wearable computing, wireless devices, and ubiquitous and mobile computing.',
@@ -35,7 +35,6 @@ export const contact = {
     { id: 'linkedin', label: 'LinkedIn', handle: 'in/yifan217', url: 'https://www.linkedin.com/in/yifan217/' },
     { id: 'orcid', label: 'ORCID', handle: '0009-0005-9261-6391', url: 'https://orcid.org/0009-0005-9261-6391' },
     { id: 'acm', label: 'ACM Digital Library', handle: 'Author profile', url: 'https://dl.acm.org/profile/99661569314' },
-    { id: 'spotify', label: 'Spotify', handle: 'What I listen to', url: 'https://open.spotify.com/user/31wgrde4xe6iopebdylcagsyz3lq' },
     { id: 'steam', label: 'Steam', handle: 'Fanersama', url: 'https://steamcommunity.com/profiles/76561199613607062/' },
   ],
 };
@@ -65,8 +64,61 @@ const ME = 'Yifan Li';
 
 export const publications = [
   {
+    id: 'yamamoto2026picoringdual',
+    venue: 'ISWC',
+    series: 'ISWC ’26',
+    year: 2026,
+    selected: true,
+    title: 'picoRing dual: ultralow-power bimanual ring controllers for everyday AR',
+    authors: ['Hideaki Yamamoto', ME, 'Yoshihiro Kawahara', 'Ryo Takahashi'],
+    booktitle: 'Proceedings of the ACM International Symposium on Wearable Computers',
+    image: '/images/pub-picoring-dual.webp',
+    imagePosition: 'left center',
+    links: {
+      pdf: 'https://arxiv.org/pdf/2609.13160',
+      doi: 'https://doi.org/10.1145/3830727.3834815',
+    },
+    bibtex: `@inproceedings{yamamoto2026picoringdual,
+  author    = {Yamamoto, Hideaki and Li, Yifan and Kawahara, Yoshihiro and Takahashi, Ryo},
+  title     = {picoRing dual: ultralow-power bimanual ring controllers for everyday AR},
+  booktitle = {Proceedings of the ACM International Symposium on Wearable Computers},
+  series    = {ISWC '26},
+  year      = {2026},
+  publisher = {Association for Computing Machinery},
+  doi       = {10.1145/3830727.3834815},
+  url       = {https://doi.org/10.1145/3830727.3834815}
+}`,
+  },
+  {
+    id: 'yamamoto2026bodynfc',
+    venue: 'CHI',
+    series: 'CHI ’26',
+    year: 2026,
+    selected: true,
+    title:
+      'Body-scale NFC for wearables: human-centric body-scale NFC networking for ultra-low-power wearable devices (Demo of UTokyo Kawahara Lab 2025)',
+    authors: [ME + '*', 'Hideaki Yamamoto*', 'Wakako Yukita', 'Tomoyuki Yokota', 'Takao Someya', 'Ryo Takahashi', 'Yoshihiro Kawahara'],
+    booktitle: 'Extended Abstracts of the CHI Conference on Human Factors in Computing Systems',
+    location: 'Barcelona, Spain',
+    image: '/images/pub-bodynfc.webp',
+    links: {
+      pdf: 'https://arxiv.org/pdf/2603.04777',
+      doi: 'https://doi.org/10.1145/3772363.3799126',
+    },
+    bibtex: `@inproceedings{yamamoto2026bodynfc,
+  author    = {Yamamoto, Hideaki and Li, Yifan and Yukita, Wakako and Yokota, Tomoyuki and Someya, Takao and Takahashi, Ryo and Kawahara, Yoshihiro},
+  title     = {Body-scale NFC for wearables: human-centric body-scale NFC networking for ultra-low-power wearable devices (Demo of UTokyo Kawahara Lab 2025)},
+  booktitle = {Extended Abstracts of the CHI Conference on Human Factors in Computing Systems},
+  series    = {CHI EA '26},
+  year      = {2026},
+  location  = {Barcelona, Spain},
+  publisher = {Association for Computing Machinery},
+  doi       = {10.1145/3772363.3799126},
+  url       = {https://doi.org/10.1145/3772363.3799126}
+}`,
+  },
+  {
     id: 'li2025ultra',
-    citations: 7,
     venue: 'UIST',
     series: 'UIST ’25',
     year: 2025,
@@ -99,43 +151,7 @@ export const publications = [
 }`,
   },
   {
-    id: 'li2025demo',
-    citations: 4,
-    venue: 'CHI',
-    series: 'CHI EA ’25',
-    year: 2025,
-    selected: true,
-    title:
-      'Demo of picoRing mouse: ultra-low-powered wireless mouse ring with ring-to-wristband coil-based impedance sensing',
-    authors: [ME, 'Masaaki Fukumoto', 'Mohamed Kari', 'Tomoyuki Yokota', 'Takao Someya', 'Yoshihiro Kawahara', 'Ryo Takahashi'],
-    booktitle: 'Extended Abstracts of the CHI Conference on Human Factors in Computing Systems',
-    location: 'Yokohama, Japan',
-    image: '/images/pub-picoring-demo.webp',
-    links: {
-      pdf: '/assets/pdf/demo_picoRing_mouse.pdf',
-      doi: 'https://doi.org/10.1145/3706599.3721183',
-    },
-    abstract:
-      'Wireless mouse rings offer subtle, reliable pointing interactions for wearable computing platforms. However, the small battery below 27 mAh in the miniature rings restricts the ring’s continuous lifespan to just 1-2 hours, because current low-powered wireless communication such as BLE is power-consuming for ring’s continuous use. The ring’s short lifespan persistently disrupts users’ mouse use with the need for frequent charging. This interactivity demonstrates picoRing mouse, enabling a continuous ring-based mouse interaction with ultra-low-powered ring-to-wristband wireless communication. picoRing mouse employs a coil-based impedance sensing named semi-passive inductive telemetry, allowing a wristband coil to capture a unique frequency response of a nearby ring coil via a sensitive inductive coupling between the coils. The ring coil converts the corresponding user’s mouse input into the unique frequency response via an 820 uW mouse-driven modulation module. Therefore, continuous use of picoRing mouse can potentially last over 92 hours on a single charge of a 20-mAh small battery.',
-    bibtex: `@inproceedings{li2025demo,
-  author    = {Li, Yifan and Fukumoto, Masaaki and Kari, Mohamed and Yokota, Tomoyuki and Someya, Takao and Kawahara, Yoshihiro and Takahashi, Ryo},
-  title     = {Demo of picoRing mouse: ultra-low-powered wireless mouse ring with ring-to-wristband coil-based impedance sensing},
-  booktitle = {Proceedings of the Extended Abstracts of the CHI Conference on Human Factors in Computing Systems},
-  series    = {CHI EA '25},
-  year      = {2025},
-  articleno = {707},
-  numpages  = {5},
-  location  = {Yokohama, Japan},
-  publisher = {Association for Computing Machinery},
-  address   = {New York, NY, USA},
-  isbn      = {9798400713958},
-  doi       = {10.1145/3706599.3721183},
-  url       = {https://doi.org/10.1145/3706599.3721183}
-}`,
-  },
-  {
     id: 'li2025plug',
-    citations: 20,
     venue: 'TEI',
     series: 'TEI ’25',
     year: 2025,
@@ -168,29 +184,6 @@ export const publications = [
   url       = {https://doi.org/10.1145/3689050.3705973}
 }`,
   },
-  {
-    id: 'li2023privacy',
-    citations: 14,
-    venue: 'ICPECA',
-    series: 'IEEE ICPECA 2023',
-    year: 2023,
-    selected: false,
-    title: 'Privacy Preserved Federated Learning for Skin Cancer Diagnosis',
-    authors: [ME, 'Yuechen He', 'Yufei Fu', 'Sizhe Shan'],
-    booktitle: '2023 IEEE 3rd International Conference on Power, Electronics and Computer Applications (ICPECA), pp. 27–33',
-    image: null,
-    links: {
-      doi: 'https://doi.org/10.1109/ICPECA56706.2023.10075862',
-    },
-    bibtex: `@inproceedings{li2023privacy,
-  author    = {Li, Yifan and He, Yuechen and Fu, Yufei and Shan, Sizhe},
-  title     = {Privacy Preserved Federated Learning for Skin Cancer Diagnosis},
-  booktitle = {2023 IEEE 3rd International Conference on Power, Electronics and Computer Applications (ICPECA)},
-  year      = {2023},
-  pages     = {27--33},
-  doi       = {10.1109/ICPECA56706.2023.10075862}
-}`,
-  },
 ];
 
 export const projects = [
@@ -202,6 +195,8 @@ export const projects = [
     role: 'Principal researcher',
     cover: '/images/picoring-cover.webp',
     tags: ['Ultra-low-power ring', 'Wearable wireless mouse', 'Coil-based impedance sensing'],
+    summary:
+      'A µW-class wireless mouse ring that talks to a wristband through coil-based impedance sensing, lasting 600–1000 hours on a single 27 mAh battery.',
     body: [
       'picoRing mouse enables a continuous ring-based mouse interaction with ultra-low-powered ring-to-wristband wireless connectivity. picoRing mouse employs a coil-based impedance sensing named semi-passive inductive telemetry, allowing a wristband coil to capture a unique frequency response of a nearby ring coil via a sensitive inductive coupling between the coils.',
       'The ring coil converts the corresponding user’s mouse input into the unique frequency response via an up to 449 µW mouse-driven modulation system. Therefore, the continuous use of picoRing mouse can last approximately 600 (8 hrs use/day) – 1000 (4 hrs use/day) hours on a single charge of a 27 mAh battery while supporting subtle thumb-to-index scrolling and pressing interactions in real-world wearable computing situations.',
@@ -215,7 +210,7 @@ export const projects = [
       youtubeId: '7RazVNMx0Ms',
       caption: 'Working principle, application and evaluation of picoRing mouse.',
     },
-    papers: ['li2025ultra', 'li2025demo'],
+    papers: ['li2025ultra'],
   },
   {
     id: 'eknit',
@@ -225,6 +220,8 @@ export const projects = [
     role: 'Principal researcher',
     cover: '/images/eknit-cover.webp',
     tags: ['E-textiles', 'Magnetically-repositionable sensor networks', 'Rapid prototyping'],
+    summary:
+      'Machine-knitted garments with a built-in power and communication network, plus soft magnet connectors that let sensors be placed and moved anywhere on the textile.',
     body: [
       'Plug-n-play e-knit is a large-scale, repositionable e-textile that provides trial-and-error prototyping platforms across the textile. It leverages industrial digital knitting machines loaded with conductive thread to automatically embed a communication and power supply network into garments, and uses soft magnet connectors to rearrange electronic components while preserving the stretchability of the garment.',
       'These combinations enable users to quickly establish e-textile sensor networks, and moreover test the performance and optimal placement of electronic devices on the textile. We demonstrated that our textiles leveraging custom I²C protocols could achieve a motion-resilient motion-tracking sensor network over a 2700 cm² garment area.',
@@ -245,7 +242,7 @@ export const education = [
     school: 'The University of Tokyo',
     field: 'Electrical Engineering and Information Systems',
     url: 'https://www.u-tokyo.ac.jp/en/',
-    notes: ['Advisor: Prof. Yoshihiro Kawahara'],
+    notes: ['Advisors: Prof. Yoshihiro Kawahara and Prof. Ryo Takahashi'],
   },
   {
     degree: 'M.S.',

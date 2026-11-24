@@ -1,6 +1,9 @@
 import Section, { Rich } from './Section.jsx';
 import { news } from '../data/site.js';
 
+// Only the most recent items are shown; older ones stay in site.js.
+const MAX_NEWS = 5;
+
 const fmt = (iso) => {
   const d = new Date(`${iso}T12:00:00`);
   return {
@@ -14,7 +17,7 @@ export default function News({ index }) {
   return (
     <Section id="news" index={index} title="News" note="Talks, demos and milestones.">
       <ol className="news">
-        {news.map((n, i) => {
+        {news.slice(0, MAX_NEWS).map((n, i) => {
           const d = fmt(n.date);
           return (
             <li className="news__item" key={n.date} data-reveal>

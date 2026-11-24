@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedinIn, FaSpotify, FaSteam } from 'react-icons/fa6';
+import { FaGithub, FaLinkedinIn, FaSteam } from 'react-icons/fa6';
 import { SiGooglescholar, SiOrcid, SiAcm } from 'react-icons/si';
 import { LuMail } from 'react-icons/lu';
 
@@ -9,7 +9,6 @@ const MAP = {
   linkedin: FaLinkedinIn,
   orcid: SiOrcid,
   acm: SiAcm,
-  spotify: FaSpotify,
   steam: FaSteam,
 };
 

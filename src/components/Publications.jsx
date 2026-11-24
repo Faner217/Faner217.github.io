@@ -11,15 +11,23 @@ const LINK_META = {
   code: { label: 'Code', icon: LuCode },
 };
 
+// A trailing "*" on an author name marks equal contribution (co-first author).
 function Authors({ list }) {
+  const hasEqual = list.some((a) => a.endsWith('*'));
   return (
     <p className="pub__authors">
-      {list.map((a, i) => (
-        <span key={a}>
-          {a === profile.name ? <strong className="me">{a}</strong> : a}
-          {i < list.length - 1 ? ', ' : ''}
-        </span>
-      ))}
+      {list.map((raw, i) => {
+        const equal = raw.endsWith('*');
+        const name = equal ? raw.slice(0, -1) : raw;
+        return (
+          <span key={name}>
+            {name === profile.name ? <strong className="me">{name}</strong> : name}
+            {equal && <sup className="pub__equal">*</sup>}
+            {i < list.length - 1 ? ', ' : ''}
+          </span>
+        );
+      })}
+      {hasEqual && <span className="pub__equal-note">* Equal contribution</span>}
     </p>
   );
 }
@@ -33,7 +41,7 @@ function Publication({ pub }) {
     <article className="pub" data-reveal>
       <div className="pub__thumb">
         {pub.image ? (
-          <img src={pub.image} alt="" loading="lazy" />
+          <img src={pub.image} alt="" loading="lazy" style={pub.imagePosition ? { objectPosition: pub.imagePosition } : undefined} />
         ) : (
           <span className="pub__thumb-text" aria-hidden="true">
             {pub.venue}
@@ -46,7 +54,6 @@ function Publication({ pub }) {
           <span className="tag">{pub.venue}</span>
           <span>{pub.series}</span>
           {pub.location && <span className="pub__loc">{pub.location}</span>}
-          {pub.citations > 0 && <span className="pub__cites">Cited by {pub.citations}</span>}
         </p>
         <h3 className="pub__title">
           <a href={pub.links.doi} target="_blank" rel="noreferrer">
