@@ -70,7 +70,7 @@ export const publications = [
     year: 2026,
     selected: true,
     title: 'picoRing dual: ultralow-power bimanual ring controllers for everyday AR',
-    authors: ['Hideaki Yamamoto*', ME + '*', 'Yoshihiro Kawahara', 'Ryo Takahashi'],
+    authors: ['Hideaki Yamamoto', ME, 'Yoshihiro Kawahara', 'Ryo Takahashi'],
     booktitle: 'Proceedings of the ACM International Symposium on Wearable Computers',
     image: '/images/pub-picoring-dual.webp',
     imagePosition: 'left center',
@@ -97,7 +97,7 @@ export const publications = [
     selected: true,
     title:
       'Body-scale NFC for wearables: human-centric body-scale NFC networking for ultra-low-power wearable devices (Demo of UTokyo Kawahara Lab 2025)',
-    authors: ['Hideaki Yamamoto', ME, 'Wakako Yukita', 'Tomoyuki Yokota', 'Takao Someya', 'Ryo Takahashi', 'Yoshihiro Kawahara'],
+    authors: [ME + '*', 'Hideaki Yamamoto*', 'Wakako Yukita', 'Tomoyuki Yokota', 'Takao Someya', 'Ryo Takahashi', 'Yoshihiro Kawahara'],
     booktitle: 'Extended Abstracts of the CHI Conference on Human Factors in Computing Systems',
     location: 'Barcelona, Spain',
     image: '/images/pub-bodynfc.webp',
