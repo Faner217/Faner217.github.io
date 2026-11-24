@@ -13,7 +13,7 @@ export const profile = {
     'Human–computer interaction researcher working on wearable computing, wireless devices, and ubiquitous & mobile computing.',
   interests: ['Human–Computer Interaction', 'Wearable Computing', 'Smart Rings', 'Wireless Devices', 'Ubiquitous & Mobile Computing'],
   facts: [
-    { label: 'Industry', value: 'Apple', sub: 'System Electronic Engineer · 2026' },
+    { label: 'Industry', value: 'Apple', sub: 'System Electronic Engineer Intern, AirPods · 2026' },
     { label: 'Ph.D.', value: 'The University of Tokyo', sub: 'Advisor: Prof. Yoshihiro Kawahara' },
     { label: 'Published at', value: 'ACM UIST · CHI · TEI', sub: '45 citations · h-index 4' },
   ],
@@ -271,7 +271,7 @@ export const education = [
 
 export const experience = [
   {
-    title: 'System Electronic Engineer (Internship)',
+    title: 'System Electronic Engineer Intern, AirPods',
     org: 'Apple',
     place: 'Shanghai, China',
     period: 'Feb 2026 – Aug 2026',
