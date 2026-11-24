@@ -11,15 +11,23 @@ const LINK_META = {
   code: { label: 'Code', icon: LuCode },
 };
 
+// A trailing "*" on an author name marks equal contribution (co-first author).
 function Authors({ list }) {
+  const hasEqual = list.some((a) => a.endsWith('*'));
   return (
     <p className="pub__authors">
-      {list.map((a, i) => (
-        <span key={a}>
-          {a === profile.name ? <strong className="me">{a}</strong> : a}
-          {i < list.length - 1 ? ', ' : ''}
-        </span>
-      ))}
+      {list.map((raw, i) => {
+        const equal = raw.endsWith('*');
+        const name = equal ? raw.slice(0, -1) : raw;
+        return (
+          <span key={name}>
+            {name === profile.name ? <strong className="me">{name}</strong> : name}
+            {equal && <sup className="pub__equal">*</sup>}
+            {i < list.length - 1 ? ', ' : ''}
+          </span>
+        );
+      })}
+      {hasEqual && <span className="pub__equal-note">* Equal contribution</span>}
     </p>
   );
 }
