@@ -1,4 +1,2 @@
 User-agent: *
 Disallow:
-
-Sitemap: https://Faner217.github.io/sitemap.xml
