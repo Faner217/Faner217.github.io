@@ -35,7 +35,6 @@ export const contact = {
     { id: 'linkedin', label: 'LinkedIn', handle: 'in/yifan217', url: 'https://www.linkedin.com/in/yifan217/' },
     { id: 'orcid', label: 'ORCID', handle: '0009-0005-9261-6391', url: 'https://orcid.org/0009-0005-9261-6391' },
     { id: 'acm', label: 'ACM Digital Library', handle: 'Author profile', url: 'https://dl.acm.org/profile/99661569314' },
-    { id: 'spotify', label: 'Spotify', handle: 'What I listen to', url: 'https://open.spotify.com/user/31wgrde4xe6iopebdylcagsyz3lq' },
     { id: 'steam', label: 'Steam', handle: 'Fanersama', url: 'https://steamcommunity.com/profiles/76561199613607062/' },
   ],
 };
