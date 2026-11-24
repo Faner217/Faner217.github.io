@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { LuFileText, LuArrowUpRight, LuPlay, LuCode, LuCopy, LuCheck } from 'react-icons/lu';
 import Section from './Section.jsx';
-import { publications, profile, scholar } from '../data/site.js';
+import { publications, profile } from '../data/site.js';
 import { useCopy } from '../hooks.js';
 
 const LINK_META = {
@@ -111,27 +111,6 @@ export default function Publications({ index }) {
       index={index}
       title="Publications"
       note="Peer-reviewed papers in reverse chronological order."
-      aside={
-        <a className="metrics" href={scholar.url} target="_blank" rel="noreferrer">
-          <dl className="metrics__grid">
-            <div>
-              <dt>Citations</dt>
-              <dd>{scholar.citations}</dd>
-            </div>
-            <div>
-              <dt>h-index</dt>
-              <dd>{scholar.hIndex}</dd>
-            </div>
-            <div>
-              <dt>i10-index</dt>
-              <dd>{scholar.i10}</dd>
-            </div>
-          </dl>
-          <span className="metrics__src">
-            Google Scholar · {scholar.asOf} <LuArrowUpRight aria-hidden="true" />
-          </span>
-        </a>
-      }
     >
       {years.map((year) => (
         <div className="pub-year" key={year}>

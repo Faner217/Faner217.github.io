@@ -15,7 +15,7 @@ export const profile = {
   facts: [
     { label: 'Industry', value: 'Apple', sub: 'System Electronic Engineer Intern, AirPods · 2026' },
     { label: 'Ph.D.', value: 'The University of Tokyo', sub: 'Advisor: Prof. Yoshihiro Kawahara' },
-    { label: 'Published at', value: 'ACM UIST · CHI · TEI', sub: '45 citations · h-index 4' },
+    { label: 'Published at', value: 'ACM UIST · CHI · TEI', sub: '3 ACM papers in 2025' },
   ],
   bio: [
     'Yifan Li is a Ph.D. candidate at the University of Tokyo. His research focuses on human-computer interaction, particularly wearable computing, wireless devices, and ubiquitous and mobile computing.',
@@ -57,15 +57,6 @@ export const news = [
 ];
 
 const ME = 'Yifan Li';
-
-// Google Scholar metrics. Update the numbers and `asOf` together.
-export const scholar = {
-  url: 'https://scholar.google.com/citations?user=zhvffBoAAAAJ',
-  asOf: 'Nov 2026',
-  citations: 45,
-  hIndex: 4,
-  i10: 2,
-};
 
 export const publications = [
   {

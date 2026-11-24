@@ -660,50 +660,6 @@ button {
   margin-right: 12px;
   color: var(--muted);
 }
-.metrics {
-  display: block;
-  max-width: 300px;
-  margin-top: 28px;
-  padding: 18px 20px 16px;
-  border: 1px solid var(--line);
-  border-radius: var(--radius);
-  background: var(--surface);
-  transition: border-color 0.2s var(--ease);
-}
-.metrics:hover {
-  border-color: var(--ink);
-}
-.metrics__grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 12px;
-}
-.metrics dt {
-  font-family: var(--mono);
-  font-size: 11px;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  color: var(--muted);
-}
-.metrics dd {
-  margin-top: 2px;
-  font-size: 28px;
-  font-weight: 650;
-  letter-spacing: -0.03em;
-  line-height: 1.1;
-}
-.metrics__src {
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
-  margin-top: 12px;
-  font-family: var(--mono);
-  font-size: 11.5px;
-  color: var(--muted);
-}
-.metrics:hover .metrics__src {
-  color: var(--accent);
-}
 .pub__title {
   margin: 12px 0 10px;
   font-size: clamp(19px, 1.35vw, 22px);
