@@ -42,6 +42,11 @@ export const contact = {
 
 // Newest first. **text** renders bold.
 export const news = [
+  { date: '2026-09-27', text: 'Attending **IROS 2026** in Pittsburgh! See you there.' },
+  {
+    date: '2026-09-01',
+    text: 'My internship at **Apple** has wrapped up. I’m back at **The University of Tokyo** to continue my Ph.D. research!',
+  },
   { date: '2026-04-14', text: 'See you at **CHI 2026** in Barcelona! We will show a demo of our lab.' },
   { date: '2026-01-18', text: 'I’m going to **Apple** for an internship! See you in Shanghai!' },
   {
