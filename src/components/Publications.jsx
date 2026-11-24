@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { LuFileText, LuArrowUpRight, LuPlay, LuCode, LuCopy, LuCheck } from 'react-icons/lu';
 import Section from './Section.jsx';
-import { publications, profile } from '../data/site.js';
+import { publications, profile, scholar } from '../data/site.js';
 import { useCopy } from '../hooks.js';
 
 const LINK_META = {
@@ -46,6 +46,7 @@ function Publication({ pub }) {
           <span className="tag">{pub.venue}</span>
           <span>{pub.series}</span>
           {pub.location && <span className="pub__loc">{pub.location}</span>}
+          {pub.citations > 0 && <span className="pub__cites">Cited by {pub.citations}</span>}
         </p>
         <h3 className="pub__title">
           <a href={pub.links.doi} target="_blank" rel="noreferrer">
@@ -110,6 +111,27 @@ export default function Publications({ index }) {
       index={index}
       title="Publications"
       note="Peer-reviewed papers in reverse chronological order."
+      aside={
+        <a className="metrics" href={scholar.url} target="_blank" rel="noreferrer">
+          <dl className="metrics__grid">
+            <div>
+              <dt>Citations</dt>
+              <dd>{scholar.citations}</dd>
+            </div>
+            <div>
+              <dt>h-index</dt>
+              <dd>{scholar.hIndex}</dd>
+            </div>
+            <div>
+              <dt>i10-index</dt>
+              <dd>{scholar.i10}</dd>
+            </div>
+          </dl>
+          <span className="metrics__src">
+            Google Scholar · {scholar.asOf} <LuArrowUpRight aria-hidden="true" />
+          </span>
+        </a>
+      }
     >
       {years.map((year) => (
         <div className="pub-year" key={year}>

@@ -11,11 +11,11 @@ export const profile = {
   cv: '/assets/pdf/Yifan_CV.pdf',
   tagline:
     'Human–computer interaction researcher working on wearable computing, wireless devices, and ubiquitous & mobile computing.',
-  interests: ['Human–Computer Interaction', 'Wearable Computing', 'Wireless Devices', 'Ubiquitous & Mobile Computing'],
+  interests: ['Human–Computer Interaction', 'Wearable Computing', 'Smart Rings', 'Wireless Devices', 'Ubiquitous & Mobile Computing'],
   facts: [
-    { label: 'Now', value: 'Systems EE Intern, Apple', sub: 'Shanghai · since Jan 2026' },
+    { label: 'Industry', value: 'Apple', sub: 'System Electronic Engineer · 2026' },
     { label: 'Ph.D.', value: 'The University of Tokyo', sub: 'Advisor: Prof. Yoshihiro Kawahara' },
-    { label: 'Published at', value: 'ACM UIST · CHI · TEI', sub: '3 ACM papers in 2025' },
+    { label: 'Published at', value: 'ACM UIST · CHI · TEI', sub: '45 citations · h-index 4' },
   ],
   bio: [
     'Yifan Li is a Ph.D. candidate at the University of Tokyo. His research focuses on human-computer interaction, particularly wearable computing, wireless devices, and ubiquitous and mobile computing.',
@@ -58,9 +58,19 @@ export const news = [
 
 const ME = 'Yifan Li';
 
+// Google Scholar metrics. Update the numbers and `asOf` together.
+export const scholar = {
+  url: 'https://scholar.google.com/citations?user=zhvffBoAAAAJ',
+  asOf: 'Nov 2026',
+  citations: 45,
+  hIndex: 4,
+  i10: 2,
+};
+
 export const publications = [
   {
     id: 'li2025ultra',
+    citations: 7,
     venue: 'UIST',
     series: 'UIST ’25',
     year: 2025,
@@ -94,6 +104,7 @@ export const publications = [
   },
   {
     id: 'li2025demo',
+    citations: 4,
     venue: 'CHI',
     series: 'CHI EA ’25',
     year: 2025,
@@ -128,6 +139,7 @@ export const publications = [
   },
   {
     id: 'li2025plug',
+    citations: 20,
     venue: 'TEI',
     series: 'TEI ’25',
     year: 2025,
@@ -162,6 +174,7 @@ export const publications = [
   },
   {
     id: 'li2023privacy',
+    citations: 14,
     venue: 'ICPECA',
     series: 'IEEE ICPECA 2023',
     year: 2023,
@@ -232,7 +245,7 @@ export const projects = [
 export const education = [
   {
     degree: 'Ph.D.',
-    period: 'Sep 2025 – Present',
+    period: 'Sep 2025 – Sep 2028 (expected)',
     school: 'The University of Tokyo',
     field: 'Electrical Engineering and Information Systems',
     url: 'https://www.u-tokyo.ac.jp/en/',
@@ -258,10 +271,10 @@ export const education = [
 
 export const experience = [
   {
-    title: 'Systems EE Intern, AirPods',
+    title: 'System Electronic Engineer (Internship)',
     org: 'Apple',
     place: 'Shanghai, China',
-    period: 'Jan 2026 – Present',
+    period: 'Feb 2026 – Aug 2026',
   },
 ];
 
