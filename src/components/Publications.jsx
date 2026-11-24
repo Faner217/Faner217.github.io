@@ -33,7 +33,7 @@ function Publication({ pub }) {
     <article className="pub" data-reveal>
       <div className="pub__thumb">
         {pub.image ? (
-          <img src={pub.image} alt="" loading="lazy" />
+          <img src={pub.image} alt="" loading="lazy" style={pub.imagePosition ? { objectPosition: pub.imagePosition } : undefined} />
         ) : (
           <span className="pub__thumb-text" aria-hidden="true">
             {pub.venue}
