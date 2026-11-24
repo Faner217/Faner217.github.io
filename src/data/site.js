@@ -14,8 +14,8 @@ export const profile = {
   interests: ['Human–Computer Interaction', 'Wearable Computing', 'Smart Rings', 'Wireless Devices', 'Ubiquitous & Mobile Computing'],
   facts: [
     { label: 'Industry', value: 'Apple', sub: 'System Electronic Engineer Intern, AirPods · 2026' },
-    { label: 'Ph.D.', value: 'The University of Tokyo', sub: 'Advisor: Prof. Yoshihiro Kawahara' },
-    { label: 'Published at', value: 'ACM UIST · CHI · TEI', sub: '3 ACM papers in 2025' },
+    { label: 'Ph.D.', value: 'The University of Tokyo', sub: 'Advisors: Prof. Yoshihiro Kawahara & Prof. Ryo Takahashi' },
+    { label: 'Research interests', value: 'Wearables & Smart Rings', sub: 'HCI · Wireless devices · Ubiquitous computing' },
   ],
   bio: [
     'Yifan Li is a Ph.D. candidate at the University of Tokyo. His research focuses on human-computer interaction, particularly wearable computing, wireless devices, and ubiquitous and mobile computing.',
@@ -168,29 +168,6 @@ export const publications = [
   url       = {https://doi.org/10.1145/3689050.3705973}
 }`,
   },
-  {
-    id: 'li2023privacy',
-    citations: 14,
-    venue: 'ICPECA',
-    series: 'IEEE ICPECA 2023',
-    year: 2023,
-    selected: false,
-    title: 'Privacy Preserved Federated Learning for Skin Cancer Diagnosis',
-    authors: [ME, 'Yuechen He', 'Yufei Fu', 'Sizhe Shan'],
-    booktitle: '2023 IEEE 3rd International Conference on Power, Electronics and Computer Applications (ICPECA), pp. 27–33',
-    image: null,
-    links: {
-      doi: 'https://doi.org/10.1109/ICPECA56706.2023.10075862',
-    },
-    bibtex: `@inproceedings{li2023privacy,
-  author    = {Li, Yifan and He, Yuechen and Fu, Yufei and Shan, Sizhe},
-  title     = {Privacy Preserved Federated Learning for Skin Cancer Diagnosis},
-  booktitle = {2023 IEEE 3rd International Conference on Power, Electronics and Computer Applications (ICPECA)},
-  year      = {2023},
-  pages     = {27--33},
-  doi       = {10.1109/ICPECA56706.2023.10075862}
-}`,
-  },
 ];
 
 export const projects = [
@@ -202,6 +179,8 @@ export const projects = [
     role: 'Principal researcher',
     cover: '/images/picoring-cover.webp',
     tags: ['Ultra-low-power ring', 'Wearable wireless mouse', 'Coil-based impedance sensing'],
+    summary:
+      'A µW-class wireless mouse ring that talks to a wristband through coil-based impedance sensing, lasting 600–1000 hours on a single 27 mAh battery.',
     body: [
       'picoRing mouse enables a continuous ring-based mouse interaction with ultra-low-powered ring-to-wristband wireless connectivity. picoRing mouse employs a coil-based impedance sensing named semi-passive inductive telemetry, allowing a wristband coil to capture a unique frequency response of a nearby ring coil via a sensitive inductive coupling between the coils.',
       'The ring coil converts the corresponding user’s mouse input into the unique frequency response via an up to 449 µW mouse-driven modulation system. Therefore, the continuous use of picoRing mouse can last approximately 600 (8 hrs use/day) – 1000 (4 hrs use/day) hours on a single charge of a 27 mAh battery while supporting subtle thumb-to-index scrolling and pressing interactions in real-world wearable computing situations.',
@@ -225,6 +204,8 @@ export const projects = [
     role: 'Principal researcher',
     cover: '/images/eknit-cover.webp',
     tags: ['E-textiles', 'Magnetically-repositionable sensor networks', 'Rapid prototyping'],
+    summary:
+      'Machine-knitted garments with a built-in power and communication network, plus soft magnet connectors that let sensors be placed and moved anywhere on the textile.',
     body: [
       'Plug-n-play e-knit is a large-scale, repositionable e-textile that provides trial-and-error prototyping platforms across the textile. It leverages industrial digital knitting machines loaded with conductive thread to automatically embed a communication and power supply network into garments, and uses soft magnet connectors to rearrange electronic components while preserving the stretchability of the garment.',
       'These combinations enable users to quickly establish e-textile sensor networks, and moreover test the performance and optimal placement of electronic devices on the textile. We demonstrated that our textiles leveraging custom I²C protocols could achieve a motion-resilient motion-tracking sensor network over a 2700 cm² garment area.',
@@ -245,7 +226,7 @@ export const education = [
     school: 'The University of Tokyo',
     field: 'Electrical Engineering and Information Systems',
     url: 'https://www.u-tokyo.ac.jp/en/',
-    notes: ['Advisor: Prof. Yoshihiro Kawahara'],
+    notes: ['Advisors: Prof. Yoshihiro Kawahara and Prof. Ryo Takahashi'],
   },
   {
     degree: 'M.S.',

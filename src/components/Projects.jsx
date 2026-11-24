@@ -28,7 +28,7 @@ function Project({ project, n }) {
           ))}
         </ul>
 
-        <p className="project__text">{project.body[0]}</p>
+        <p className="project__text">{project.summary}</p>
 
         <dl className="project__meta">
           <div>
@@ -62,7 +62,7 @@ function Project({ project, n }) {
       <div id={detailsId} className="project__details" hidden={!open}>
         {open && (
           <>
-            {project.body.slice(1).map((p, i) => (
+            {project.body.map((p, i) => (
               <p key={i} className="project__text project__text--wide">
                 {p}
               </p>
