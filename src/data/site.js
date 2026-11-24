@@ -92,7 +92,7 @@ export const publications = [
   {
     id: 'yamamoto2026bodynfc',
     venue: 'CHI',
-    series: 'CHI EA ’26',
+    series: 'CHI ’26',
     year: 2026,
     selected: true,
     title:
